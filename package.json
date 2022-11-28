@@ -4,8 +4,10 @@
   "description": "",
   "author": "Kronensoft",
   "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "test": "jest .",
     "dev": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -21,6 +23,7 @@
     "@storybook/vue3": "^6.5.13",
     "@vitejs/plugin-vue": "^3.1.2",
     "babel-loader": "^8.3.0",
+    "husky": "^8.0.2",
     "vite": "^3.1.4",
     "vue": "^3.2.45",
     "vue-loader": "^16.8.3",
