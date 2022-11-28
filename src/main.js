@@ -6,7 +6,5 @@ import App from './App.vue'
 //   { path: '/about', component: About },
 // ];
 
-console.log('test')
-
 const app = createApp(App)
 app.mount('#app')
