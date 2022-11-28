@@ -3,7 +3,6 @@
     "dbaeumer.vscode-eslint",
     "rvest.vs-code-prettier-eslint",
     "vue.volar",
-    "vue.vscode-typescript-vue-plugin",
-    "hollowtree.vue-snippets"
+    "vue.vscode-typescript-vue-plugin"
   ]
 }

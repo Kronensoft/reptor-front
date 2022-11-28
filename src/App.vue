@@ -1,15 +1,15 @@
 <template>
-  <Header />
-  <Content />
+  <div id="appWrapper">
+    <Header />
+    <Content />
+  </div>
 </template>
 
 <script setup>
-import Content from './components/organisms/Content.vue';
-import Header from './components/organisms/Header.vue';
-
+import Content from './components/organisms/Content.vue'
+import Header from './components/organisms/Header.vue'
 
 </script>
-
 
 <style>
 html,
