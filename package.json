@@ -5,8 +5,8 @@
   "author": "Kronensoft",
   "scripts": {
     "prepare": "husky install",
-    "lint": "npx eslint . --ext .js,.ts,.jsx,.tsx,.vue",
-    "lint-fix": "npx eslint . --ext .js,.ts,.jsx,.tsx,.vue --fix",
+    "lint": "npx eslint src --ext .js,.ts,.jsx,.tsx,.vue",
+    "lint-fix": "npx eslint src --ext .js,.ts,.jsx,.tsx,.vue --fix",
     "test": "jest .",
     "dev": "vite",
     "build": "vite build",
