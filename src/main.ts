@@ -1,6 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
-
+import App from './components/App.vue'
 // const routes = [
 //   { path: '/globalDataSources', component: DataSources },
 //   { path: '/about', component: About },

@@ -1,14 +1,13 @@
 <template>
   <div id="appWrapper">
-    <Header />
-    <Content />
+    <AppHeader />
+    <AppContent />
   </div>
 </template>
 
-<script setup>
-import Content from './components/organisms/Content.vue'
-import Header from './components/organisms/Header.vue'
-
+<script setup lang="ts">
+import AppContent from './organisms/AppContent.vue'
+import AppHeader from './organisms/AppHeader.vue'
 </script>
 
 <style>

@@ -5,11 +5,11 @@
   "author": "Kronensoft",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint .",
-    "lint-commit": "eslint .",
-    "lint-fix": "eslint . --fix",
+    "lint": "npx eslint . --ext .js,.ts,.jsx,.tsx,.vue",
+    "lint-fix": "npx eslint . --ext .js,.ts,.jsx,.tsx,.vue --fix",
     "test": "jest .",
     "dev": "vite",
+    "build": "vite build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -33,6 +33,7 @@
     "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^9.8.0",
     "husky": "^8.0.2",

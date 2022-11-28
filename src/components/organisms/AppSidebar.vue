@@ -9,7 +9,7 @@
         <!-- <img /> -->
       </div>
       <div>
-        <span></span>
+        <span />
       </div>
     </div>
     <nav>
@@ -23,8 +23,7 @@
   </aside>
 </template>
 
-<script setup>
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 aside {
@@ -32,7 +31,7 @@ aside {
   height: 100%;
   width: 300px;
   color: #fafafa;
-  background-color: #3498DB;
+  background-color: #3498db;
 }
 
 aside #sidebar__title {

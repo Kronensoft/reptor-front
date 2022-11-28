@@ -1,9 +1,10 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:vue/essential', 'airbnb-base'],
+  extends: ['airbnb-base', 'plugin:vue/vue3-essential'],
   parserOptions: {
     ecmaVersion: 'latest',
     parser: '@typescript-eslint/parser',
@@ -21,5 +22,6 @@ module.exports = {
     'array-element-newline': ['error', { multiline: true, minItems: 3 }],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'linebreak-style': ['error', 'unix'],
   },
 }
